@@ -90,6 +90,21 @@ header ul li {
 .Lorem-2 {
     margin-bottom: 24px;
 }
+.color-1 {
+    position: relative;
+}
+.color-1 img {
+    position: absolute;
+}
+.color1 {
+    position: absolute;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    width: 153px;
+    height: 666px;
+    border-bottom-left-radius: 20px ;
+    border-top-left-radius: 20px;
+} 
 /* ------------------Section-7-------------- */
 .Sec-7 {
     width: 1280px;
