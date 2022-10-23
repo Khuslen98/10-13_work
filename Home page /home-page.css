@@ -27,6 +27,18 @@ header ul li {
     background: rgba(245, 138, 7, 0.1);
     border-radius: 31px ;
 }
+ul a{
+    text-decoration: none;
+    color: black;
+    padding: 10px ;
+    transition: color .3s ease-in-out ,box-shadow .3s ease-in-out;
+    border-radius: 20px;
+}
+ul a:hover {
+    color: #F58A07;
+    box-shadow: inset 100px 0 0 0 #54b3d6; ;
+}
+
 /*-------------------(Section-1)--------------------*/
 .Section-1 {
     background: #DCEAF5;
@@ -63,6 +75,13 @@ header ul li {
 }
 section .Section-1-2 p {
     padding: 0 15px 0 15px;
+    margin-top: 50px;
+}
+.Section-1-2 button {
+    background: #F58A07;
+    border-radius: 27px;
+    color: white;
+    padding: 18px 32px;
     margin-top: 50px;
 }
 .smiling-guy {
@@ -273,6 +292,7 @@ section .Section-1-2 p {
 }
 .C-3 {
     margin-right: 140px;
+    width: 50%;
 }
 .C-3-1 {
     color: #0D1317;
@@ -287,12 +307,21 @@ section .Section-1-2 p {
 .C-3-3 {
     color: #F58A07;
 }
-/* .color-1 {
-    flex: 1;
-    background:#F58A07;
-    background-blend-mode: multiply;
-    width: 30%;
-} */
+.Color-cut5 {
+    position: relative;
+}
+.Color-cut5 img {
+    position: absolute;
+}
+.color2 {
+    position: absolute;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    width: 120px;
+    height: 115%;
+    border-bottom-left-radius: 20px ;
+    border-top-left-radius: 20px;
+}
 /* --------------Section-6-------------- */
 .Sec-6 {
     display: flex;
@@ -390,6 +419,7 @@ section .Section-1-2 p {
 /* --------------------Footer---------------------- */
 footer {
     background-color: #063255;
+    position: relative;
 }
 .Foot1 {
     width: 1280px;
@@ -438,4 +468,34 @@ footer {
 }
 .f5-2 {
     margin-right: 32px;
+}
+.color-banner1 {
+    position: absolute;
+    width: 53px;
+    height: 144px;
+    background-color: #F58A07;
+    left: -0.1%;
+    top: 73%;
+    border-top-right-radius: 20px;
+}
+.color-banner2 {
+    position: absolute;
+    width: 53px;
+    height: 287px;
+    background-color: #F58A07;
+    right: -0%;
+    top: 20%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.f4-1 {
+    padding: 17px 188px 17px 32px;
+    border-radius: 31px;
+    margin-bottom: 16px;
+}
+.f4-2 {
+    padding: 18px 32px;
+    border-radius: 31px;
+    background-color:#F58A07;
+    color: white;
 }
