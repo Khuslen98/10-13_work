@@ -7,6 +7,12 @@
     margin: 0;
     font-family: "poppins";
 }
+input {
+    border: none;
+}
+button {
+    border: none;
+}
 /*-----------------(header part)------------------*/
 header {
     display: flex;
