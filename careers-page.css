@@ -5,7 +5,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: "poppins";
+    font-family: poppins;
 }
 /*-----------------(header part)------------------*/
 header {
@@ -13,7 +13,6 @@ header {
     max-width: 1280px;
     justify-content: space-between;
     margin:0 auto; 
-    margin-bottom: 122px;
 }
 header ul {
     display: flex;
@@ -45,6 +44,7 @@ ul a:hover {
     margin: auto;
     display: flex;
     margin-bottom: 128px;
+    margin-top: 128px;
 }
 .Section-1-2-1 {
     background: #F58A07;
@@ -102,105 +102,35 @@ ul a:hover {
     border-bottom-left-radius: 20px;
     mix-blend-mode: multiply;
 }
-/* -------------------Section-2----------------- */
+/* ------------------Section-2-------------- */
 .Sec-2 {
     width: 1280px;
     margin: auto;
-    display: flex;
     margin-bottom: 128px;
 }
-.S2-1 {
-    margin-left: 76px;
-    padding: 130px 0px;
-    width: 618px;
-}
-.Lorem-2 {
-    margin-bottom: 24px;
-}
-.color-1 {
-    position: relative;
-    flex: 1;
-}
-.color-1 img {
-    position: absolute;
-}
-.color-1 .color1 {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    mix-blend-mode: multiply;
+.s2 {
+    background-color: #dbe8f2;
+    padding: 32px 40px;
     border-radius: 20px;
-    background-color: #F58A07;
-    left: -50px;
+    width: 386px;
+    margin: 40px 40px 40px 0px;
 }
-.color-1-2 {
-    top: 217px;
-}
-.color-1-1 {
-    top: 128px;
-}
-.color-1-3 {
-    bottom: 11px;
-}
-/* ------------------Section-3-------------- */
-.Sec-3 {
-    width: 1280px;
-    margin: auto;
-    display: flex;
-    margin-bottom: 128px;
-    height: 550px;
-}
-.color-1 .color2 {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    mix-blend-mode: multiply;
-    border-radius: 20px;
-    background-color: #F58A07;
-    right: -50px;
-}
-.color-2-1 {
-    bottom: 181px;
-}
-/* ------------------Section-7-------------- */
-.Sec-7 {
-    width: 1280px;
-    margin: auto;
-    display: flex;
-    margin-bottom: 128px;
-}
-.Sec-7-1 {
-    flex: 1;
-    padding-top: 78px;
-    margin-right: 110px;
-}
-.S7-2 {
-    color: #0D1317;
-    font-size: 48px;
-    line-height: 56px;
-    margin-bottom: 24px;
-}
-.S7-3 {
-    font-size: 18px;
-    line-height: 30px;
-    color: #5B5B5B;
-    margin-bottom: 46px;
-}
-.S7-4 {
-    display: flex;
-}
-.S7-4 img {
-    margin-right: 24px;
-}
-.S7-7 {
-    padding: 10px 0px;
-}
-.S7-5 {
+.s2-1 {
     font-size: 24px;
-    color: #063255;
+    line-height: 30px;
+    margin-bottom: 8px;
 }
-.S7-6 {
+.s2-2 {
+    line-height: 28px;
+    color: #394149;
+    margin-bottom: 32px;
+}
+.s2-3 {
     color: #F58A07;
+}
+.Sec-2-1 {
+    display: flex;
+    flex-wrap: wrap;
 }
 /* -------------------Section-8----------------- */
 .Sec-8 {
