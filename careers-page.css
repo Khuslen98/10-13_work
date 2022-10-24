@@ -10,9 +10,6 @@
 input {
     border: none;
 }
-button {
-    border: none;
-}
 /*-----------------(header part)------------------*/
 header {
     display: flex;
@@ -58,6 +55,7 @@ ul a:hover {
     color: white;
     padding: 15px 15px;
     width: 140px;
+    text-decoration: none;
 }
 .Sec-1-1 {
     padding: 130px 0px;
